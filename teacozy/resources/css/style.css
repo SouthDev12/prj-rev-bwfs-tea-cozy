@@ -1,0 +1,134 @@
+body {
+  margin: 0px;
+  background-color: black;
+  font-family: Helvetica;
+  color: seashell;
+  opacity: 0.9;
+  text-align: center;
+  font-size: 22px;
+}
+
+
+/* Header Section Styling */
+header {
+  display: flex;
+  align-items: center;
+  position: fixed;
+  margin: 0px;
+  width: 100%;
+  height: 69px;
+  z-index: 10;
+  flex-grow: 1;
+  background-color: black;
+  border-bottom: 1px solid seashell;
+}
+
+.logo {
+  display: flex;
+  flex-grow: 1;
+  padding-left: 10px;
+}
+
+.logo img {
+  height: 50px;
+}
+
+header nav {
+  display: inline-block;
+}
+
+header nav a {
+  color: seashell;
+  text-decoration: underline;
+  padding-left: 30px;
+}
+
+
+/* High Level Styles for Body Section */
+main {
+  padding-top: 65px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+section {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+h2, h4, h5 {
+  margin: 0px;
+  padding: 10px 0px 15px 0px;
+}
+
+h3 {
+  padding: 0px;
+  margin: 0px;
+}
+
+footer {
+  padding-left: 20px;
+  text-align: left;
+}
+
+/*Class Stylings for Multiple Sections */
+.container {
+  width: 1200px;
+  padding-top: 50px;
+  margin: 0px auto 10px auto;
+}
+
+.content {
+  margin-top: 0px;
+  width: 1200px;
+  background-color: black;
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.row {
+  display: flex;
+  justify-content: center;
+}
+
+.content img {
+  height: 200px;
+  width: 300px;
+  padding: 10px 25px 0px 25px;
+}
+
+.location {
+  background-color: black;
+  height: 300px;
+  width: 300px;
+  display: inline-flex;
+  flex-direction: column;
+  justify-content: space-around;
+  margin: 15px 20px;
+  opacity: 1;
+}
+
+/* Specialized ID Stylings for Individual Content */
+#mission-background{
+  background-image: url("../images/img-mission-background.jpg");
+  height: 700px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 50px;
+}
+
+#location-background {
+  background-image: url("../images/img-locations-background.jpg");
+  height: 575px;
+  z-index: 5;
+}
+
+#contact {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
